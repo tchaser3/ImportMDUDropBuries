@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataReadyDataSet" targetNamespace="http://tempuri.org/DataReadyDataSet.xsd" xmlns:mstns="http://tempuri.org/DataReadyDataSet.xsd" xmlns="http://tempuri.org/DataReadyDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataReadyDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataReadyDataSet" msprop:Generator_UserDSName="DataReadyDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="insertdata" msprop:Generator_TableClassName="insertdataDataTable" msprop:Generator_TableVarName="tableinsertdata" msprop:Generator_TablePropName="insertdata" msprop:Generator_RowDeletingName="insertdataRowDeleting" msprop:Generator_RowChangingName="insertdataRowChanging" msprop:Generator_RowEvHandlerName="insertdataRowChangeEventHandler" msprop:Generator_RowDeletedName="insertdataRowDeleted" msprop:Generator_UserTableName="insertdata" msprop:Generator_RowChangedName="insertdataRowChanged" msprop:Generator_RowEvArgName="insertdataRowChangeEvent" msprop:Generator_RowClassName="insertdataRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransactionID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnTransactionID" msprop:Generator_ColumnPropNameInRow="TransactionID" msprop:Generator_ColumnPropNameInTable="TransactionIDColumn" msprop:Generator_UserColumnName="TransactionID" type="xs:int" />
+              <xs:element name="StreetAddress" msprop:Generator_ColumnVarNameInTable="columnStreetAddress" msprop:Generator_ColumnPropNameInRow="StreetAddress" msprop:Generator_ColumnPropNameInTable="StreetAddressColumn" msprop:Generator_UserColumnName="StreetAddress" type="xs:string" />
+              <xs:element name="ZoneID" msprop:Generator_ColumnVarNameInTable="columnZoneID" msprop:Generator_ColumnPropNameInRow="ZoneID" msprop:Generator_ColumnPropNameInTable="ZoneIDColumn" msprop:Generator_UserColumnName="ZoneID" type="xs:int" />
+              <xs:element name="WorkZone" msprop:Generator_ColumnVarNameInTable="columnWorkZone" msprop:Generator_ColumnPropNameInRow="WorkZone" msprop:Generator_ColumnPropNameInTable="WorkZoneColumn" msprop:Generator_UserColumnName="WorkZone" type="xs:string" />
+              <xs:element name="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnPropNameInTable="CityColumn" msprop:Generator_UserColumnName="City" type="xs:string" />
+              <xs:element name="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" msprop:Generator_UserColumnName="State" type="xs:string" />
+              <xs:element name="ZipCode" msprop:Generator_ColumnVarNameInTable="columnZipCode" msprop:Generator_ColumnPropNameInRow="ZipCode" msprop:Generator_ColumnPropNameInTable="ZipCodeColumn" msprop:Generator_UserColumnName="ZipCode" type="xs:string" />
+              <xs:element name="PhoneNumber" msprop:Generator_ColumnVarNameInTable="columnPhoneNumber" msprop:Generator_ColumnPropNameInRow="PhoneNumber" msprop:Generator_ColumnPropNameInTable="PhoneNumberColumn" msprop:Generator_UserColumnName="PhoneNumber" type="xs:string" />
+              <xs:element name="AccountNumber" msprop:Generator_ColumnVarNameInTable="columnAccountNumber" msprop:Generator_ColumnPropNameInRow="AccountNumber" msprop:Generator_ColumnPropNameInTable="AccountNumberColumn" msprop:Generator_UserColumnName="AccountNumber" type="xs:string" />
+              <xs:element name="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_UserColumnName="FirstName" type="xs:string" />
+              <xs:element name="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_UserColumnName="LastName" type="xs:string" />
+              <xs:element name="WorkOrderNumber" msprop:Generator_ColumnVarNameInTable="columnWorkOrderNumber" msprop:Generator_ColumnPropNameInRow="WorkOrderNumber" msprop:Generator_ColumnPropNameInTable="WorkOrderNumberColumn" msprop:Generator_UserColumnName="WorkOrderNumber" type="xs:string" />
+              <xs:element name="WorkTypeID" msprop:Generator_ColumnVarNameInTable="columnWorkTypeID" msprop:Generator_ColumnPropNameInRow="WorkTypeID" msprop:Generator_ColumnPropNameInTable="WorkTypeIDColumn" msprop:Generator_UserColumnName="WorkTypeID" type="xs:int" />
+              <xs:element name="DateEntered" msprop:Generator_ColumnVarNameInTable="columnDateEntered" msprop:Generator_ColumnPropNameInRow="DateEntered" msprop:Generator_ColumnPropNameInTable="DateEnteredColumn" msprop:Generator_UserColumnName="DateEntered" type="xs:dateTime" />
+              <xs:element name="DateReceived" msprop:Generator_ColumnVarNameInTable="columnDateReceived" msprop:Generator_ColumnPropNameInRow="DateReceived" msprop:Generator_ColumnPropNameInTable="DateReceivedColumn" msprop:Generator_UserColumnName="DateReceived" type="xs:dateTime" />
+              <xs:element name="DateScheduled" msprop:Generator_ColumnVarNameInTable="columnDateScheduled" msprop:Generator_ColumnPropNameInRow="DateScheduled" msprop:Generator_ColumnPropNameInTable="DateScheduledColumn" msprop:Generator_UserColumnName="DateScheduled" type="xs:dateTime" />
+              <xs:element name="StatusDate" msprop:Generator_ColumnVarNameInTable="columnStatusDate" msprop:Generator_ColumnPropNameInRow="StatusDate" msprop:Generator_ColumnPropNameInTable="StatusDateColumn" msprop:Generator_UserColumnName="StatusDate" type="xs:dateTime" />
+              <xs:element name="StatusID" msprop:Generator_ColumnVarNameInTable="columnStatusID" msprop:Generator_ColumnPropNameInRow="StatusID" msprop:Generator_ColumnPropNameInTable="StatusIDColumn" msprop:Generator_UserColumnName="StatusID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:insertdata" />
+      <xs:field xpath="mstns:TransactionID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
